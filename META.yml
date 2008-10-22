@@ -22,5 +22,5 @@ recommends:
   DBD::SQLite: 1.11
 requires:
   Contextual::Return: 0
-  DBIx::Class: 0.07005
-version: 0.001000
+  DBIx::Class: 0.08
+version: 0.001001

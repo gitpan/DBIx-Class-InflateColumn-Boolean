@@ -1,18 +1,23 @@
 ---
 abstract: 'Auto-create boolean objects from columns.'
 author:
+  - 'Bernhard Graf C<< <graf at cpan.org> >>'
   - 'Bernhard Graf <perl-misc@movingtarget.de>'
 build_requires:
+  ExtUtils::MakeMaker: 6.36
   Path::Class: 0
   SQL::Translator: 0
   Scalar::Util: 0
   Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.36
 distribution_type: module
-generated_by: 'Module::Install version 0.75'
+dynamic_config: 1
+generated_by: 'Module::Install version 1.06'
 license: perl
 meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.3.html
-  version: 1.3
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
 name: DBIx-Class-InflateColumn-Boolean
 no_index:
   directory:
@@ -21,6 +26,8 @@ no_index:
 recommends:
   DBD::SQLite: 1.11
 requires:
-  Contextual::Return: 0
+  Contextual::Return: 0.004007
   DBIx::Class: 0.08
-version: 0.001001
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.002000
